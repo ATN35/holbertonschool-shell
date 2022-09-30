@@ -1,2 +1,2 @@
 #!/bin/bash
-sed '/^[[:alpha:]]/d' /etc/ssh/sshd_config
+grep '/^[[:alpha:]]/d' /etc/ssh/sshd_config
