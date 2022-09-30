@@ -1,2 +1,2 @@
 #!/bin/bash
- sed '/^[[:alpha:]]/d' /etc/ssh/sshd_config
+sed '/^[[:alpha:]]/d' /etc/ssh/sshd_config
