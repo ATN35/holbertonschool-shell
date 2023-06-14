@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /etc/passwd | awk -F ':' '{printf "Utilisateur: %s | Répertoire personnel: %s\n", $1, $6} | sort
