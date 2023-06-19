@@ -1,6 +1,38 @@
-Project:
+Project: Shell, basics
 
-Shell, basics
+cd : Cette commande permet de changer de répertoire. Par exemple, cd dossier vous déplace dans le dossier spécifié.
+
+ls : Utilisée pour afficher le contenu d'un répertoire. Par défaut, elle affiche les fichiers et dossiers dans le répertoire actuel.
+
+pwd : Cette commande affiche le chemin absolu du répertoire actuel (répertoire de travail).
+
+less : Utilisé pour afficher le contenu d'un fichier page par page de manière interactive. Par exemple, less fichier vous permet de parcourir le contenu du fichier.
+
+file : Cette commande permet de déterminer le type de fichier. Par exemple, file fichier affiche des informations sur le type de fichier.
+
+ln : Utilisée pour créer des liens (symboliques ou physiques) entre les fichiers. Par exemple, ln -s fichier lien crée un lien symbolique vers le fichier.
+
+cp : Utilisée pour copier des fichiers et des répertoires. Par exemple, cp fichier destination copie le fichier vers la destination spécifiée.
+
+mv : Cette commande permet de déplacer ou de renommer des fichiers et des répertoires. Par exemple, mv fichier destination déplace le fichier vers la destination spécifiée.
+
+rm : Utilisée pour supprimer des fichiers et des répertoires. Par exemple, rm fichier supprime le fichier spécifié.
+
+mkdir : Cette commande permet de créer des répertoires. Par exemple, mkdir dossier crée un nouveau dossier avec le nom spécifié.
+
+type : Utilisée pour afficher comment une commande serait interprétée si elle était exécutée. Par exemple, type commande affiche le type de la commande (alias, fonction, binaire, etc.).
+
+which : Cette commande permet de localiser l'emplacement d'une commande exécutable. Par exemple, which commande affiche le chemin vers l'exécutable de la commande.
+
+help : Utilisée pour afficher l'aide intégrée pour les commandes du shell. Par exemple, help commande affiche l'aide spécifique à la commande.
+
+man : Cette commande permet d'afficher les pages de manuel pour les commandes. Par exemple, man commande affiche le manuel de la commande spécifiée.
+
+Ces commandes sont couramment utilisées dans les systèmes Unix/Linux pour effectuer diverses tâches liées à la navigation, à la manipulation de fichiers et aux opérations de base du système.
+
+
+Project: Shell, permissions
+
 chmod : Utilisé pour modifier les permissions d'accès (lecture, écriture, exécution) d'un fichier ou d'un répertoire.
 
 sudo : Permet à un utilisateur d'exécuter une commande avec les privilèges d'administration (superutilisateur) sur un système Linux.
@@ -25,7 +57,9 @@ addgroup : Commande pour ajouter un nouveau groupe sur le système.
 
 Ces commandes sont couramment utilisées pour gérer les utilisateurs, les groupes et les autorisations sur les systèmes Linux.
 
-Shell, permissions
+
+Project: Shell, I/O Redirections and filters
+
 echo : Affiche un message ou une variable sur la sortie standard.
 
 cat : Concatène et affiche le contenu d'un ou plusieurs fichiers.
@@ -54,7 +88,9 @@ passwd (5) : Affiche le contenu du fichier de configuration /etc/passwd (format 
 
 Ces commandes sont largement utilisées dans les tâches d'administration système, le traitement de fichiers et la manipulation des données en ligne de commande sous Linux.
 
-Shell, I/O Redirections and filters
+
+Project: Shell, init files, variables and expansions
+
 printenv : Affiche les valeurs des variables d'environnement.
 
 set : Affiche les variables d'environnement ainsi que d'autres variables, y compris les variables locales.
@@ -74,14 +110,3 @@ source : Exécute les commandes d'un fichier de script dans le contexte de l'env
 printf : Affiche du texte formaté selon une chaîne de format spécifiée.
 
 Ces commandes sont utilisées pour gérer les variables d'environnement, définir des alias pour des commandes et effectuer des opérations liées aux variables dans l'environnement de la ligne de commande.
-
-Shell, init files, variables and expansions
-gcc : Le compilateur GNU C (gcc) est utilisé pour compiler des programmes en langage C. Il transforme le code source C en code exécutable.
-
-printf (3) : La fonction printf() est utilisée pour afficher du texte formaté sur la sortie standard (généralement l'écran). Elle permet d'afficher des variables, des chaînes de caractères et d'autres éléments en utilisant un format spécifié.
-
-puts : La fonction puts() est utilisée pour afficher une chaîne de caractères sur la sortie standard, suivie d'un saut de ligne. Elle est utilisée pour afficher des messages simples.
-
-putchar : La fonction putchar() est utilisée pour afficher un seul caractère sur la sortie standard. Elle prend un seul argument, le caractère à afficher.
-
-Ces commandes et fonctions sont utilisées couramment lors de la programmation en langage C. Elles permettent d'afficher des messages à l'utilisateur, d'afficher du texte formaté et de compiler des programmes en langage C.
