@@ -1,4 +1,4 @@
-Project: Shell, basics
+[Project: Shell, basics]
 
 cd : Cette commande permet de changer de répertoire. Par exemple, cd dossier vous déplace dans le dossier spécifié.
 
@@ -31,7 +31,7 @@ man : Cette commande permet d'afficher les pages de manuel pour les commandes. P
 Ces commandes sont couramment utilisées dans les systèmes Unix/Linux pour effectuer diverses tâches liées à la navigation, à la manipulation de fichiers et aux opérations de base du système.
 
 
-Project: Shell, permissions
+[Project: Shell, permissions]
 
 chmod : Utilisé pour modifier les permissions d'accès (lecture, écriture, exécution) d'un fichier ou d'un répertoire.
 
@@ -58,7 +58,7 @@ addgroup : Commande pour ajouter un nouveau groupe sur le système.
 Ces commandes sont couramment utilisées pour gérer les utilisateurs, les groupes et les autorisations sur les systèmes Linux.
 
 
-Project: Shell, I/O Redirections and filters
+[Project: Shell, I/O Redirections and filters]
 
 echo : Affiche un message ou une variable sur la sortie standard.
 
@@ -89,7 +89,7 @@ passwd (5) : Affiche le contenu du fichier de configuration /etc/passwd (format 
 Ces commandes sont largement utilisées dans les tâches d'administration système, le traitement de fichiers et la manipulation des données en ligne de commande sous Linux.
 
 
-Project: Shell, init files, variables and expansions
+[Project: Shell, init files, variables and expansions]
 
 printenv : Affiche les valeurs des variables d'environnement.
 
